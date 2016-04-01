@@ -91,7 +91,6 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
-
   background-color: orange;
   border-radius: 50%;
 }
@@ -114,7 +113,6 @@ div {
   right: 1em;
   top: 1em;
   width: 250px;
-
   border: 1px solid #ccc;
   overflow: hidden;
   overflow-y: auto;
@@ -124,11 +122,9 @@ div {
   overflow: hidden;
   padding: 0 0.5em;
   max-height: 0;
-
   background-color: plum;
   border: 1px solid mediumpurple;
   overflow: hidden;
-
   color: mediumpurple;
 }
 
