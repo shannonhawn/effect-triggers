@@ -1,9 +1,20 @@
 var $Body = $('body');
 
-var $Box = $('.box');
-var $Showbox = $('.showbox');
-var $Diamond = $('.diamond');
-var $Circle = $('.circle');
 var $BtnShowHide = $('.btn-show-hide');
-var $BtnSlide = $('.btn-slide');
-var $Bounce = $('.bounce');
+var $Box = $('.box');
+
+var $ButtonMove = $('.btn-move');
+var $Diamond = $('.diamond');
+
+var $ButtonColEx = $('.btn-collapse-expand');
+var $Panel = $('.panel');
+
+var $ButtonAppend = $('.button-append');
+var $List = $('list');
+
+var $ButtonBounce = $('.btn-bounce');
+var $Circle = $('.circle');
+
+$btnShowHide.on ('click, function' (){
+  $box.toggleclass ('showbox');
+});
